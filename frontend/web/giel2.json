@@ -1,0 +1,951 @@
+[
+  {
+    "_index": "fapi-latest",
+    "_type": "media",
+    "_id": "283046",
+    "_score": 3.9020648,
+    "_source": {
+      "id": 283046,
+      "image": {
+        "id": 440372,
+        "mediadb_ids": [
+          "2151193"
+        ],
+        "title": "",
+        "url": "http://download.omroep.nl/vara/2016/11/02/20161102-giel-dazzledsticks-bonus_0.jpg",
+        "src": null,
+        "created": "2016-11-02T09:50:03Z",
+        "modified": "2016-11-02T10:11:04Z"
+      },
+      "image_source_type": "image",
+      "broadcasters": [
+        {
+          "id": 2,
+          "name": "VARA",
+          "slug": "vara",
+          "poms_key": "VARA",
+          "youtube_content_id": null,
+          "created": "2015-12-01T11:09:30Z",
+          "modified": "2015-12-01T11:09:30Z",
+          "logo": null
+        }
+      ],
+      "persons": [
+        {
+          "id": 121815,
+          "person": {
+            "id": 854,
+            "mediadb_taxonomy_ids": [
+              "21398"
+            ],
+            "tags": null,
+            "aliases": null,
+            "firstname": "Sticks",
+            "lastname": "",
+            "slug": "sticks-21398",
+            "date_of_birth": null,
+            "display_name": "Sticks",
+            "similarity_factor": null,
+            "created": "2016-09-04T09:56:02Z",
+            "modified": "2016-11-02T10:11:04Z",
+            "similarity_person": null
+          },
+          "role": {
+            "id": 6,
+            "name": "Undefined",
+            "slug": "undefined",
+            "poms_key": "UNDEFINED",
+            "created": "2016-02-09T09:31:04Z",
+            "modified": "2016-02-09T09:31:04Z"
+          },
+          "description": null,
+          "created": "2016-11-02T10:11:04Z",
+          "modified": "2016-11-02T10:11:04Z",
+          "media": 283046
+        },
+        {
+          "id": 121816,
+          "person": {
+            "id": 1098,
+            "mediadb_taxonomy_ids": [
+              "10103"
+            ],
+            "tags": null,
+            "aliases": null,
+            "firstname": "Dazzled",
+            "lastname": "Kid",
+            "slug": "dazzled-kid-10103",
+            "date_of_birth": null,
+            "display_name": "Dazzled Kid",
+            "similarity_factor": null,
+            "created": "2016-09-04T09:57:01Z",
+            "modified": "2016-11-02T10:11:04Z",
+            "similarity_person": null
+          },
+          "role": {
+            "id": 6,
+            "name": "Undefined",
+            "slug": "undefined",
+            "poms_key": "UNDEFINED",
+            "created": "2016-02-09T09:31:04Z",
+            "modified": "2016-02-09T09:31:04Z"
+          },
+          "description": null,
+          "created": "2016-11-02T10:11:04Z",
+          "modified": "2016-11-02T10:11:04Z",
+          "media": 283046
+        },
+        {
+          "id": 121814,
+          "person": {
+            "id": 16386,
+            "mediadb_taxonomy_ids": [
+              "65982"
+            ],
+            "tags": null,
+            "aliases": null,
+            "firstname": "Dazzled",
+            "lastname": "Sticks",
+            "slug": "dazzled-sticks",
+            "date_of_birth": null,
+            "display_name": "Dazzled Sticks",
+            "similarity_factor": null,
+            "created": "2016-09-06T15:16:39Z",
+            "modified": "2016-11-02T10:11:04Z",
+            "similarity_person": null
+          },
+          "role": {
+            "id": 6,
+            "name": "Undefined",
+            "slug": "undefined",
+            "poms_key": "UNDEFINED",
+            "created": "2016-02-09T09:31:04Z",
+            "modified": "2016-02-09T09:31:04Z"
+          },
+          "description": null,
+          "created": "2016-11-02T10:11:04Z",
+          "modified": "2016-11-02T10:11:04Z",
+          "media": 283046
+        },
+        {
+          "id": 121813,
+          "person": {
+            "id": 17181,
+            "mediadb_taxonomy_ids": [
+              "71097"
+            ],
+            "tags": null,
+            "aliases": null,
+            "firstname": "De",
+            "lastname": "Tunnel",
+            "slug": "de-tunnel",
+            "date_of_birth": null,
+            "display_name": "de tunnel",
+            "similarity_factor": null,
+            "created": "2016-11-02T10:11:04Z",
+            "modified": "2016-11-02T10:11:04Z",
+            "similarity_person": null
+          },
+          "role": {
+            "id": 6,
+            "name": "Undefined",
+            "slug": "undefined",
+            "poms_key": "UNDEFINED",
+            "created": "2016-02-09T09:31:04Z",
+            "modified": "2016-02-09T09:31:04Z"
+          },
+          "description": null,
+          "created": "2016-11-02T10:11:04Z",
+          "modified": "2016-11-02T10:11:04Z",
+          "media": 283046
+        }
+      ],
+      "sources": [
+        {
+          "id": 274211,
+          "format": "MP4",
+          "url": "http://download.omroep.nl/vara/2016/11/02/20161102-giel-dazzledsticks-bonus.mp4",
+          "bitrate": null,
+          "offset": null,
+          "online": null,
+          "offline": null,
+          "is_valid": true,
+          "mediadb_source_id": 357595,
+          "mediadb_video_id": 361700,
+          "mediadb_audio_id": null,
+          "created": "2016-11-02T09:45:03Z",
+          "modified": "2016-11-02T10:11:04Z",
+          "media": 283046
+        }
+      ],
+      "genres": [],
+      "parents": [
+        {
+          "id": 67443,
+          "parent": {
+            "id": 282385,
+            "mediadb_id": 365647,
+            "slug": "giel-282385",
+            "title": "Giel",
+            "media_type": 1,
+            "image": {
+              "id": 36,
+              "mediadb_ids": [
+                "2136479"
+              ],
+              "title": "",
+              "url": "http://media.vara.nl/images/logos/Giel.jpg",
+              "src": null,
+              "created": "2016-09-04T09:53:38Z",
+              "modified": "2016-11-02T10:11:03Z"
+            }
+          },
+          "child": {
+            "id": 283046,
+            "mediadb_id": 366308,
+            "slug": "dazzled-sticks-live-de-tunnel-283046",
+            "title": "Dazzled Sticks live: De Tunnel",
+            "media_type": 7,
+            "image": {
+              "id": 440372,
+              "mediadb_ids": [
+                "2151193"
+              ],
+              "title": "",
+              "url": "http://download.omroep.nl/vara/2016/11/02/20161102-giel-dazzledsticks-bonus_0.jpg",
+              "src": null,
+              "created": "2016-11-02T09:50:03Z",
+              "modified": "2016-11-02T10:11:04Z"
+            }
+          },
+          "sort_order": null
+        }
+      ],
+      "collections": [
+        {
+          "id": 361,
+          "mediadb_rubric_ids": [
+            "45"
+          ],
+          "mediadb_serie_ids": [
+            "1"
+          ],
+          "name": "BONUSTRACK",
+          "slug": "bonustrack-45",
+          "created": "2016-03-07T13:25:17Z",
+          "modified": "2016-11-02T10:11:04Z"
+        }
+      ],
+      "publication_groups": [],
+      "media_type": {
+        "id": 7,
+        "name": "Clip",
+        "slug": "clip",
+        "poms_key": "CLIP",
+        "allow_publication_to_poms": true,
+        "created": "2015-12-01T11:10:50Z",
+        "modified": "2016-09-29T12:05:12Z"
+      },
+      "concept": {
+        "id": 8,
+        "mediadb_videoconfig_ids": [
+          "1"
+        ],
+        "default_tags": [
+          "3fm",
+          "Ochtendshow",
+          "Radio",
+          "Giel Beelen",
+          "Giel"
+        ],
+        "name": "GIEL!",
+        "poms_mid": "0",
+        "parkpost_match_id": "giel",
+        "youtube_channel_id": null,
+        "created": "2016-09-04T09:53:38Z",
+        "modified": "2016-11-02T10:11:03Z",
+        "logo": 36,
+        "broadcaster": null
+      },
+      "tags": [
+        "Ochtendshow",
+        "Dazzled Sticks",
+        "de tunnel",
+        "Dazzled Kid",
+        "sticks",
+        "3FM",
+        "Giel",
+        "Live",
+        "Radio"
+      ],
+      "title": "Dazzled Sticks live: De Tunnel",
+      "slug": "dazzled-sticks-live-de-tunnel-283046",
+      "av_type": "VIDEO",
+      "import_filename": "20161102-giel-dazzledsticks-bonus",
+      "enabled": true,
+      "description": "En als aller aller laatst: De Tunnel. Vaarwel Dazzled Sticks, hadden we maar moeten komen. Nog even genieten.",
+      "poms_mid": null,
+      "poms_urn": null,
+      "mediadb_id": 366308,
+      "mediadb_video_id": 361700,
+      "mediadb_audio_id": null,
+      "nebo_id": null,
+      "start_time": null,
+      "length_in_seconds": 193,
+      "broadcast_start_date": null,
+      "broadcast_end_date": null,
+      "online_date": "2016-11-02T09:56:00Z",
+      "offline_date": null,
+      "sort_date": "2016-11-02T09:56:00Z",
+      "created": "2016-11-02T09:50:03Z",
+      "modified": "2016-11-02T10:11:04Z",
+      "publish_to_poms": false,
+      "publish_poms_portal_restriction": [],
+      "views_week": 1,
+      "views_year": 1,
+      "views_total": 1,
+      "views_month": 1
+    }
+  },
+  {
+    "_index": "fapi-latest",
+    "_type": "media",
+    "_id": "266605",
+    "_score": 3.9020648,
+    "_source": {
+      "id": 266605,
+      "image": {
+        "id": 36,
+        "mediadb_ids": [
+          "2136479"
+        ],
+        "title": "",
+        "url": "http://media.vara.nl/images/logos/Giel.jpg",
+        "src": null,
+        "created": "2016-09-04T09:53:38Z",
+        "modified": "2016-10-25T17:01:03Z"
+      },
+      "broadcasters": [
+        {
+          "id": 2,
+          "name": "VARA",
+          "slug": "vara",
+          "poms_key": "VARA",
+          "youtube_content_id": null,
+          "created": "2015-12-01T11:09:30Z",
+          "modified": "2015-12-01T11:09:30Z",
+          "logo": null
+        }
+      ],
+      "persons": [
+        {
+          "id": 102971,
+          "person": {
+            "id": 112,
+            "mediadb_taxonomy_ids": [
+              "2456"
+            ],
+            "tags": null,
+            "aliases": null,
+            "firstname": "Giel",
+            "lastname": "Beelen",
+            "slug": "giel-beelen-2456",
+            "date_of_birth": null,
+            "display_name": "Giel Beelen",
+            "similarity_factor": null,
+            "created": "2016-09-04T09:53:48Z",
+            "modified": "2016-10-24T05:59:03Z",
+            "similarity_person": null
+          },
+          "role": {
+            "id": 6,
+            "name": "Undefined",
+            "slug": "undefined",
+            "poms_key": "UNDEFINED",
+            "created": "2016-02-09T09:31:04Z",
+            "modified": "2016-02-09T09:31:04Z"
+          },
+          "description": null,
+          "created": "2016-09-06T14:01:05Z",
+          "modified": "2016-09-06T14:01:05Z",
+          "media": 266605
+        }
+      ],
+      "sources": [
+        {
+          "id": 257671,
+          "format": "MP3",
+          "url": "http://download.omroep.nl/vara/2015/02/09/20150209-giel-bzvin60sec_audio.mp3",
+          "bitrate": null,
+          "offset": null,
+          "online": null,
+          "offline": null,
+          "is_valid": true,
+          "mediadb_source_id": 326050,
+          "mediadb_video_id": null,
+          "mediadb_audio_id": 104152,
+          "created": "2016-09-06T14:01:05Z",
+          "modified": "2016-09-06T14:01:05Z",
+          "media": 266605
+        }
+      ],
+      "genres": [
+        {
+          "id": 18,
+          "name": "Muziek",
+          "slug": "muziek",
+          "poms_key": null,
+          "mediadb_genre_id": 18,
+          "created": "2016-02-29T14:43:07Z",
+          "modified": "2016-02-29T14:43:07Z"
+        }
+      ],
+      "parents": [
+        {
+          "id": 52520,
+          "parent": {
+            "id": 20641,
+            "mediadb_id": 332965,
+            "slug": "giel-20641",
+            "title": "Giel",
+            "media_type": 1,
+            "image": {
+              "id": 36,
+              "mediadb_ids": [
+                "2136479"
+              ],
+              "title": "",
+              "url": "http://media.vara.nl/images/logos/Giel.jpg",
+              "src": null,
+              "created": "2016-09-04T09:53:38Z",
+              "modified": "2016-10-25T17:01:03Z"
+            }
+          },
+          "child": {
+            "id": 266605,
+            "mediadb_id": 334065,
+            "slug": "bzv-in-60-sec-deel-7-266605",
+            "title": "BZV in 60 sec deel 7",
+            "media_type": 7,
+            "image": {
+              "id": 36,
+              "mediadb_ids": [
+                "2136479"
+              ],
+              "title": "",
+              "url": "http://media.vara.nl/images/logos/Giel.jpg",
+              "src": null,
+              "created": "2016-09-04T09:53:38Z",
+              "modified": "2016-10-25T17:01:03Z"
+            }
+          },
+          "sort_order": null
+        }
+      ],
+      "collections": [
+        {
+          "id": 373,
+          "mediadb_rubric_ids": [
+            "57"
+          ],
+          "mediadb_serie_ids": [
+            "1"
+          ],
+          "name": "BZV IN 60 SECONDEN",
+          "slug": "bzv-in-60-seconden-57",
+          "created": "2016-03-07T13:25:17Z",
+          "modified": "2016-09-06T14:10:46Z"
+        }
+      ],
+      "publication_groups": [],
+      "media_type": {
+        "id": 7,
+        "name": "Clip",
+        "slug": "clip",
+        "poms_key": "CLIP",
+        "allow_publication_to_poms": true,
+        "created": "2015-12-01T11:10:50Z",
+        "modified": "2016-09-29T12:05:12Z"
+      },
+      "concept": {
+        "id": 8,
+        "mediadb_videoconfig_ids": [
+          "1"
+        ],
+        "default_tags": [
+          "Radio",
+          "Ochtendshow",
+          "Giel Beelen",
+          "3fm",
+          "Giel"
+        ],
+        "name": "GIEL!",
+        "poms_mid": "0",
+        "parkpost_match_id": "giel",
+        "youtube_channel_id": null,
+        "created": "2016-09-04T09:53:38Z",
+        "modified": "2016-10-25T17:01:03Z",
+        "logo": 36,
+        "broadcaster": null
+      },
+      "tags": [
+        "Radio",
+        "Ochtendshow",
+        "3FM",
+        "Giel Beelen",
+        "Giel"
+      ],
+      "title": "BZV in 60 sec deel 7",
+      "slug": "bzv-in-60-sec-deel-7-266605",
+      "av_type": "VIDEO",
+      "import_filename": "20150209-giel-bzvin60sec_audio",
+      "enabled": true,
+      "description": "111 miljard konden gisteravond geen kant op, want ze wilden perse Boer Zoekt Vrouw zien. Ikke niet hoor. Ik wacht weer liever op maandagmorgen: \"Geert wil graag pruimen proeven...\" haha. Ja, daarom vind ik het zo leuk om Boer Zoekt Vrouw in 60 seconden iedere maandag te horen.",
+      "poms_mid": null,
+      "poms_urn": null,
+      "mediadb_id": 334065,
+      "mediadb_video_id": null,
+      "mediadb_audio_id": 104152,
+      "nebo_id": null,
+      "start_time": null,
+      "length_in_seconds": null,
+      "broadcast_start_date": null,
+      "broadcast_end_date": null,
+      "online_date": "2015-02-09T05:39:00Z",
+      "offline_date": null,
+      "sort_date": "2015-02-09T05:39:00Z",
+      "created": "2016-09-06T14:01:04Z",
+      "modified": "2016-10-19T07:26:32Z",
+      "images": [],
+      "publish_poms_portal_restriction": []
+    }
+  },
+  {
+    "_index": "fapi-latest",
+    "_type": "media",
+    "_id": "266710",
+    "_score": 3.9020648,
+    "_source": {
+      "id": 266710,
+      "image": {
+        "id": 36,
+        "mediadb_ids": [
+          "2136479"
+        ],
+        "title": "",
+        "url": "http://media.vara.nl/images/logos/Giel.jpg",
+        "src": null,
+        "created": "2016-09-04T09:53:38Z",
+        "modified": "2016-10-25T17:01:03Z"
+      },
+      "broadcasters": [
+        {
+          "id": 2,
+          "name": "VARA",
+          "slug": "vara",
+          "poms_key": "VARA",
+          "youtube_content_id": null,
+          "created": "2015-12-01T11:09:30Z",
+          "modified": "2015-12-01T11:09:30Z",
+          "logo": null
+        }
+      ],
+      "persons": [
+        {
+          "id": 103131,
+          "person": {
+            "id": 15280,
+            "mediadb_taxonomy_ids": [
+              "59026"
+            ],
+            "tags": null,
+            "aliases": null,
+            "firstname": "Dj",
+            "lastname": "Sandstorm",
+            "slug": "dj-sandstorm",
+            "date_of_birth": null,
+            "display_name": "DJ Sandstorm",
+            "similarity_factor": null,
+            "created": "2016-09-06T14:02:13Z",
+            "modified": "2016-09-07T08:24:34Z",
+            "similarity_person": null
+          },
+          "role": {
+            "id": 6,
+            "name": "Undefined",
+            "slug": "undefined",
+            "poms_key": "UNDEFINED",
+            "created": "2016-02-09T09:31:04Z",
+            "modified": "2016-02-09T09:31:04Z"
+          },
+          "description": null,
+          "created": "2016-09-06T14:02:13Z",
+          "modified": "2016-09-06T14:02:13Z",
+          "media": 266710
+        }
+      ],
+      "sources": [
+        {
+          "id": 257777,
+          "format": "MP3",
+          "url": "http://download.omroep.nl/vara/2015/02/12/20150212-giel-djsandstorm-zeroesmix-2008_audio.mp3",
+          "bitrate": null,
+          "offset": null,
+          "online": null,
+          "offline": null,
+          "is_valid": true,
+          "mediadb_source_id": 326269,
+          "mediadb_video_id": null,
+          "mediadb_audio_id": 104192,
+          "created": "2016-09-06T14:02:13Z",
+          "modified": "2016-09-06T14:02:13Z",
+          "media": 266710
+        }
+      ],
+      "genres": [
+        {
+          "id": 18,
+          "name": "Muziek",
+          "slug": "muziek",
+          "poms_key": null,
+          "mediadb_genre_id": 18,
+          "created": "2016-02-29T14:43:07Z",
+          "modified": "2016-02-29T14:43:07Z"
+        }
+      ],
+      "parents": [
+        {
+          "id": 52625,
+          "parent": {
+            "id": 20312,
+            "mediadb_id": 333416,
+            "slug": "giel-20312",
+            "title": "Giel",
+            "media_type": 1,
+            "image": {
+              "id": 36,
+              "mediadb_ids": [
+                "2136479"
+              ],
+              "title": "",
+              "url": "http://media.vara.nl/images/logos/Giel.jpg",
+              "src": null,
+              "created": "2016-09-04T09:53:38Z",
+              "modified": "2016-10-25T17:01:03Z"
+            }
+          },
+          "child": {
+            "id": 266710,
+            "mediadb_id": 334312,
+            "slug": "2008-zeroes-request-mix-dj-sandstorm-266710",
+            "title": "2008 Zeroes Request Mix - DJ Sandstorm",
+            "media_type": 7,
+            "image": {
+              "id": 36,
+              "mediadb_ids": [
+                "2136479"
+              ],
+              "title": "",
+              "url": "http://media.vara.nl/images/logos/Giel.jpg",
+              "src": null,
+              "created": "2016-09-04T09:53:38Z",
+              "modified": "2016-10-25T17:01:03Z"
+            }
+          },
+          "sort_order": null
+        }
+      ],
+      "collections": [
+        {
+          "id": 366,
+          "mediadb_rubric_ids": [
+            "50"
+          ],
+          "mediadb_serie_ids": [
+            "1"
+          ],
+          "name": "BACKSTAGE",
+          "slug": "backstage-50",
+          "created": "2016-03-07T13:25:17Z",
+          "modified": "2016-09-07T08:19:56Z"
+        }
+      ],
+      "publication_groups": [],
+      "media_type": {
+        "id": 7,
+        "name": "Clip",
+        "slug": "clip",
+        "poms_key": "CLIP",
+        "allow_publication_to_poms": true,
+        "created": "2015-12-01T11:10:50Z",
+        "modified": "2016-09-29T12:05:12Z"
+      },
+      "concept": {
+        "id": 8,
+        "mediadb_videoconfig_ids": [
+          "1"
+        ],
+        "default_tags": [
+          "Radio",
+          "Ochtendshow",
+          "Giel Beelen",
+          "3fm",
+          "Giel"
+        ],
+        "name": "GIEL!",
+        "poms_mid": "0",
+        "parkpost_match_id": "giel",
+        "youtube_channel_id": null,
+        "created": "2016-09-04T09:53:38Z",
+        "modified": "2016-10-25T17:01:03Z",
+        "logo": 36,
+        "broadcaster": null
+      },
+      "tags": [
+        "Ochtendshow",
+        "Giel Beelen",
+        "zeroes request",
+        "3FM",
+        "Giel",
+        "Radio"
+      ],
+      "title": "2008 Zeroes Request Mix - DJ Sandstorm",
+      "slug": "2008-zeroes-request-mix-dj-sandstorm-266710",
+      "av_type": "VIDEO",
+      "import_filename": "20150212-giel-djsandstorm-zeroesmix-2008_audio",
+      "enabled": true,
+      "description": "1. Rihanna - Disturbia\r\n2. Mika - Love Today\r\n3. Alex Gaudino - Watch Out\r\n4. Sia - Girl You Lost To Cocane\r\n5. David Guetta - Delirious\r\n6. Milow - Ayo Technology\r\n7. Alain Clark - Blow Me Away (Remix)",
+      "poms_mid": null,
+      "poms_urn": null,
+      "mediadb_id": 334312,
+      "mediadb_video_id": null,
+      "mediadb_audio_id": 104192,
+      "nebo_id": null,
+      "start_time": null,
+      "length_in_seconds": null,
+      "broadcast_start_date": null,
+      "broadcast_end_date": null,
+      "online_date": "2015-02-12T02:44:00Z",
+      "offline_date": null,
+      "sort_date": "2015-02-12T02:44:00Z",
+      "created": "2016-09-06T14:02:13Z",
+      "modified": "2016-10-19T13:04:01Z",
+      "images": [],
+      "publish_poms_portal_restriction": []
+    }
+  },
+  {
+    "_index": "fapi-latest",
+    "_type": "media",
+    "_id": "266716",
+    "_score": 3.9020648,
+    "_source": {
+      "id": 266716,
+      "image": {
+        "id": 36,
+        "mediadb_ids": [
+          "2136479"
+        ],
+        "title": "",
+        "url": "http://media.vara.nl/images/logos/Giel.jpg",
+        "src": null,
+        "created": "2016-09-04T09:53:38Z",
+        "modified": "2016-10-25T17:01:03Z"
+      },
+      "broadcasters": [
+        {
+          "id": 2,
+          "name": "VARA",
+          "slug": "vara",
+          "poms_key": "VARA",
+          "youtube_content_id": null,
+          "created": "2015-12-01T11:09:30Z",
+          "modified": "2015-12-01T11:09:30Z",
+          "logo": null
+        }
+      ],
+      "persons": [
+        {
+          "id": 103137,
+          "person": {
+            "id": 15280,
+            "mediadb_taxonomy_ids": [
+              "59026"
+            ],
+            "tags": null,
+            "aliases": null,
+            "firstname": "Dj",
+            "lastname": "Sandstorm",
+            "slug": "dj-sandstorm",
+            "date_of_birth": null,
+            "display_name": "DJ Sandstorm",
+            "similarity_factor": null,
+            "created": "2016-09-06T14:02:13Z",
+            "modified": "2016-09-07T08:24:34Z",
+            "similarity_person": null
+          },
+          "role": {
+            "id": 6,
+            "name": "Undefined",
+            "slug": "undefined",
+            "poms_key": "UNDEFINED",
+            "created": "2016-02-09T09:31:04Z",
+            "modified": "2016-02-09T09:31:04Z"
+          },
+          "description": null,
+          "created": "2016-09-06T14:02:15Z",
+          "modified": "2016-09-06T14:02:15Z",
+          "media": 266716
+        }
+      ],
+      "sources": [
+        {
+          "id": 257783,
+          "format": "MP3",
+          "url": "http://download.omroep.nl/vara/2015/02/12/20150212-giel-djsandstorm-zeroesmix-2006_audio.mp3",
+          "bitrate": null,
+          "offset": null,
+          "online": null,
+          "offline": null,
+          "is_valid": true,
+          "mediadb_source_id": 326266,
+          "mediadb_video_id": null,
+          "mediadb_audio_id": 104190,
+          "created": "2016-09-06T14:02:15Z",
+          "modified": "2016-09-06T14:02:15Z",
+          "media": 266716
+        }
+      ],
+      "genres": [
+        {
+          "id": 18,
+          "name": "Muziek",
+          "slug": "muziek",
+          "poms_key": null,
+          "mediadb_genre_id": 18,
+          "created": "2016-02-29T14:43:07Z",
+          "modified": "2016-02-29T14:43:07Z"
+        }
+      ],
+      "parents": [
+        {
+          "id": 52631,
+          "parent": {
+            "id": 20312,
+            "mediadb_id": 333416,
+            "slug": "giel-20312",
+            "title": "Giel",
+            "media_type": 1,
+            "image": {
+              "id": 36,
+              "mediadb_ids": [
+                "2136479"
+              ],
+              "title": "",
+              "url": "http://media.vara.nl/images/logos/Giel.jpg",
+              "src": null,
+              "created": "2016-09-04T09:53:38Z",
+              "modified": "2016-10-25T17:01:03Z"
+            }
+          },
+          "child": {
+            "id": 266716,
+            "mediadb_id": 334318,
+            "slug": "2006-zeroes-request-mix-dj-sandstorm-266716",
+            "title": "2006 Zeroes Request Mix - DJ Sandstorm",
+            "media_type": 7,
+            "image": {
+              "id": 36,
+              "mediadb_ids": [
+                "2136479"
+              ],
+              "title": "",
+              "url": "http://media.vara.nl/images/logos/Giel.jpg",
+              "src": null,
+              "created": "2016-09-04T09:53:38Z",
+              "modified": "2016-10-25T17:01:03Z"
+            }
+          },
+          "sort_order": null
+        }
+      ],
+      "collections": [
+        {
+          "id": 366,
+          "mediadb_rubric_ids": [
+            "50"
+          ],
+          "mediadb_serie_ids": [
+            "1"
+          ],
+          "name": "BACKSTAGE",
+          "slug": "backstage-50",
+          "created": "2016-03-07T13:25:17Z",
+          "modified": "2016-09-07T08:19:56Z"
+        }
+      ],
+      "publication_groups": [],
+      "media_type": {
+        "id": 7,
+        "name": "Clip",
+        "slug": "clip",
+        "poms_key": "CLIP",
+        "allow_publication_to_poms": true,
+        "created": "2015-12-01T11:10:50Z",
+        "modified": "2016-09-29T12:05:12Z"
+      },
+      "concept": {
+        "id": 8,
+        "mediadb_videoconfig_ids": [
+          "1"
+        ],
+        "default_tags": [
+          "Radio",
+          "Ochtendshow",
+          "Giel Beelen",
+          "3fm",
+          "Giel"
+        ],
+        "name": "GIEL!",
+        "poms_mid": "0",
+        "parkpost_match_id": "giel",
+        "youtube_channel_id": null,
+        "created": "2016-09-04T09:53:38Z",
+        "modified": "2016-10-25T17:01:03Z",
+        "logo": 36,
+        "broadcaster": null
+      },
+      "tags": [
+        "Ochtendshow",
+        "Giel Beelen",
+        "3FM",
+        "Giel",
+        "Radio",
+        "zeroes request week"
+      ],
+      "title": "2006 Zeroes Request Mix - DJ Sandstorm",
+      "slug": "2006-zeroes-request-mix-dj-sandstorm-266716",
+      "av_type": "VIDEO",
+      "import_filename": "20150212-giel-djsandstorm-zeroesmix-2006_audio",
+      "enabled": true,
+      "description": "1. Muse  Supermassive Black Hole\r\n\r\n2. LL Cool J & J Lo  Control Myself\r\n\r\n3. Madonna  Jump\r\n\r\n4. The Strokes - You Only Live Once\r\n\r\n5. Sugababes - Red Dress\r\n\r\n6. Bodyrox - Yeah Yeah\r\n\r\n7. Till West - Same Men",
+      "poms_mid": null,
+      "poms_urn": null,
+      "mediadb_id": 334318,
+      "mediadb_video_id": null,
+      "mediadb_audio_id": 104190,
+      "nebo_id": null,
+      "start_time": null,
+      "length_in_seconds": null,
+      "broadcast_start_date": null,
+      "broadcast_end_date": null,
+      "online_date": "2015-02-13T00:43:00Z",
+      "offline_date": null,
+      "sort_date": "2015-02-13T00:43:00Z",
+      "created": "2016-09-06T14:02:15Z",
+      "modified": "2016-10-19T09:40:43Z",
+      "images": [],
+      "publish_poms_portal_restriction": []
+    }
+  }
+]
