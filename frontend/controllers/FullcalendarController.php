@@ -76,5 +76,4 @@ class FullcalendarController extends Controller
             ]),
         ];
     }
-
 }
