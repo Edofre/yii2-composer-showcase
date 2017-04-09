@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f23416ae040f3b0625ba824823ba13c",
+    "content-hash": "134905dedd571c325dd99fef905e8c7c",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -69,6 +69,46 @@
                 "full-sized",
                 "jquery-plugin"
             ]
+        },
+        {
+            "name": "bower-asset/fullcalendar-scheduler",
+            "version": "v1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fullcalendar/fullcalendar-scheduler.git",
+                "reference": "ec2a6138cc4baff754ad061a1a4d08034073b661"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fullcalendar/fullcalendar-scheduler/zipball/ec2a6138cc4baff754ad061a1a4d08034073b661",
+                "reference": "ec2a6138cc4baff754ad061a1a4d08034073b661",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/fullcalendar": "~3.2.0",
+                "bower-asset/jquery": ">=2,<4.0",
+                "bower-asset/moment": ">=2.9.0,<3.0.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "dist/scheduler.js",
+                    "dist/scheduler.css"
+                ],
+                "bower-asset-ignore": [
+                    "*",
+                    "**/.*",
+                    "!/dist/**",
+                    "!/README.*",
+                    "!/LICENSE.*",
+                    "!/CHANGELOG.*",
+                    "!/CONTRIBUTING.*"
+                ]
+            },
+            "license": [
+                "SEE LICENSE IN LICENSE.md"
+            ],
+            "description": "A premium add-on to FullCalendar for displaying events and resources"
         },
         {
             "name": "bower-asset/jquery",
@@ -181,12 +221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "8287ddea024caa2a79f59077b3db50d4ff0c65ad"
+                "reference": "641bd1a98efe932c65225ca9fb23b4846e20221e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/8287ddea024caa2a79f59077b3db50d4ff0c65ad",
-                "reference": "8287ddea024caa2a79f59077b3db50d4ff0c65ad",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/641bd1a98efe932c65225ca9fb23b4846e20221e",
+                "reference": "641bd1a98efe932c65225ca9fb23b4846e20221e",
                 "shasum": ""
             },
             "require": {
@@ -233,7 +273,7 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2016-12-11 13:37:11"
+            "time": "2017-04-04 09:40:58"
         },
         {
             "name": "edofre/yii2-fullcalendar",
@@ -285,6 +325,59 @@
                 "javascript"
             ],
             "time": "2017-03-30T10:12:09+00:00"
+        },
+        {
+            "name": "edofre/yii2-fullcalendar-scheduler",
+            "version": "V1.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Edofre/yii2-fullcalendar-scheduler.git",
+                "reference": "53db1bacc0dccb1cfdd8f481e2967a9b607dd286"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Edofre/yii2-fullcalendar-scheduler/zipball/53db1bacc0dccb1cfdd8f481e2967a9b607dd286",
+                "reference": "53db1bacc0dccb1cfdd8f481e2967a9b607dd286",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/fullcalendar": "3.2.0",
+                "bower-asset/fullcalendar-scheduler": "1.5.1",
+                "php": ">=5.5.0",
+                "yiisoft/yii2": ">=2.0.9",
+                "yiisoft/yii2-jui": ">=2.0.6"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "edofre\\fullcalendarscheduler\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Edo Freriks",
+                    "email": "edofre@gmail.com"
+                }
+            ],
+            "description": "Yii2 widget for fullcalendar scheduler module",
+            "homepage": "https://github.com/edofre/yii2-fullcalendar-scheduler",
+            "keywords": [
+                "calendar",
+                "event",
+                "fullcalendar-scheduler",
+                "javascript",
+                "scheduler"
+            ],
+            "time": "2017-03-31T19:13:35+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -393,12 +486,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "8e89c35dd68d7fc41f1554c9ff6dd3d36647c31b"
+                "reference": "4ad50bb9b25b22e574e4f71038faf81041034a90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/8e89c35dd68d7fc41f1554c9ff6dd3d36647c31b",
-                "reference": "8e89c35dd68d7fc41f1554c9ff6dd3d36647c31b",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/4ad50bb9b25b22e574e4f71038faf81041034a90",
+                "reference": "4ad50bb9b25b22e574e4f71038faf81041034a90",
                 "shasum": ""
             },
             "require": {
@@ -485,7 +578,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-04-01 15:27:27"
+            "time": "2017-04-07 12:59:59"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -714,12 +807,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "0e3e900e97a6f781dedc45ca8759dd84a1f2cfc1"
+                "reference": "bd5580a1ca86bd32a8f72f9b47f273aab3ef90f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/0e3e900e97a6f781dedc45ca8759dd84a1f2cfc1",
-                "reference": "0e3e900e97a6f781dedc45ca8759dd84a1f2cfc1",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/bd5580a1ca86bd32a8f72f9b47f273aab3ef90f7",
+                "reference": "bd5580a1ca86bd32a8f72f9b47f273aab3ef90f7",
                 "shasum": ""
             },
             "require": {
@@ -756,7 +849,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2017-03-29 09:42:14"
+            "time": "2017-04-07T07:05:49+00:00"
         },
         {
             "name": "phpspec/php-diff",
@@ -802,12 +895,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "7eb1e6d11aae2102d1cd8cda648e62a6a1fd3e2d"
+                "reference": "b215cd6338fbd0bd3fd8a135f1bf63fddede2235"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/7eb1e6d11aae2102d1cd8cda648e62a6a1fd3e2d",
-                "reference": "7eb1e6d11aae2102d1cd8cda648e62a6a1fd3e2d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/b215cd6338fbd0bd3fd8a135f1bf63fddede2235",
+                "reference": "b215cd6338fbd0bd3fd8a135f1bf63fddede2235",
                 "shasum": ""
             },
             "require": {
@@ -841,7 +934,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-04-01T15:33:26+00:00"
+            "time": "2017-04-07T13:13:35+00:00"
         },
         {
             "name": "yiisoft/yii2-faker",
