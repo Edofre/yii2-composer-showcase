@@ -1,32 +1,32 @@
 <?php
 
 /* @var $this yii\web\View */
+/* @var $packages [] */
 
-$this->title = 'My Yii Application';
+use yii\bootstrap\Html;
+use yii\grid\GridView;
+
+$this->title = 'My Yii Packages';
 ?>
 <div class="site-index">
-	<div class="body-content">
-
-		<div class="row">
-
-			<?php
-			$paymentRequest = new \edofre\omnikassa\PaymentRequest([
-				'amount'               => 12354,
-				'orderId'              => '123456789',
-				'normalReturnUrl'      => \yii\helpers\Url::to(['site/return'], true),
-				'transactionReference' => uniqid(),
-			]);
-			Yii::$app->omniKassa->prepareRequest($paymentRequest)
-
-			?>
-
-			<form method="post" action="<?= Yii::$app->omniKassa->url ?>">
-				<input type="hidden" name="Data" value="<?= Yii::$app->omniKassa->dataField ?>">
-				<input type="hidden" name="InterfaceVersion" value="<?= Yii::$app->omniKassa->interfaceVersion ?>">
-				<input type="hidden" name="Seal" value="<?= Yii::$app->omniKassa->seal ?>">
-				<?= \yii\helpers\Html::submitButton('Click here to make your payment', ['class' => 'btn btn-success']) ?>
-			</form>
-		</div>
-
-	</div>
+    <div class="body-content">
+        <div class="row">
+            <?= GridView::widget([
+                'dataProvider' => new \yii\data\ArrayDataProvider(['allModels' => $packages]),
+                'columns'      => [
+                    'name',
+                    [
+                        'label'  => 'Link',
+                        'format' => 'raw',
+                        'value'  => function ($data) {
+                            return Html::a($data['name'], [$data['link']]);
+                        },
+                    ],
+                    'github:url',
+                    'composer:url',
+                    'version',
+                ],
+            ]) ?>
+        </div>
+    </div>
 </div>

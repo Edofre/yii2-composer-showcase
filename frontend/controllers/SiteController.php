@@ -82,7 +82,24 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $packages = [
+            [
+                'name'     => 'yii2-fullcalendar',
+                'link'     => '/fullcalendar',
+                'github'   => 'https://github.com/Edofre/yii2-fullcalendar',
+                'composer' => 'https://packagist.org/packages/edofre/yii2-fullcalendar',
+                'version'  => 'V1.0.8',
+            ],
+            [
+                'name'     => 'yii2-fullcalendar-scheduler',
+                'link'     => '/fullcalendar-scheduler',
+                'github'   => 'https://github.com/Edofre/yii2-fullcalendar-scheduler',
+                'composer' => 'https://packagist.org/packages/edofre/yii2-fullcalendar-scheduler',
+                'version'  => 'V1.1.9',
+            ],
+        ];
+
+        return $this->render('index', ['packages' => $packages]);
     }
 
     public function actionSlider()
