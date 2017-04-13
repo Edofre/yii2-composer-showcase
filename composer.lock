@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "134905dedd571c325dd99fef905e8c7c",
+    "content-hash": "9385e2088aa6ccaa73e623c4e3fbfd5b",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -380,6 +380,47 @@
             "time": "2017-03-31T19:13:35+00:00"
         },
         {
+            "name": "edofre/yii2-omnikassa",
+            "version": "V1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Edofre/yii2-omnikassa.git",
+                "reference": "72e6314971f7f2fcccb3eb0ffc64d3ef1b50fabb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Edofre/yii2-omnikassa/zipball/72e6314971f7f2fcccb3eb0ffc64d3ef1b50fabb",
+                "reference": "72e6314971f7f2fcccb3eb0ffc64d3ef1b50fabb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "edofre\\omnikassa\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Edo Freriks",
+                    "email": "edofre@gmail.com"
+                }
+            ],
+            "description": "Yii2 component for Rabobank omnikassa payments",
+            "homepage": "https://github.com/edofre/yii2-omnikassa",
+            "keywords": [
+                "omnikassa",
+                "rabobank"
+            ],
+            "time": "2016-12-24T10:19:41+00:00"
+        },
+        {
             "name": "ezyang/htmlpurifier",
             "version": "v4.9.2",
             "source": {
@@ -486,12 +527,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "4ad50bb9b25b22e574e4f71038faf81041034a90"
+                "reference": "f9de13eb7b78bf8f4947e74160100a27f168af13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/4ad50bb9b25b22e574e4f71038faf81041034a90",
-                "reference": "4ad50bb9b25b22e574e4f71038faf81041034a90",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f9de13eb7b78bf8f4947e74160100a27f168af13",
+                "reference": "f9de13eb7b78bf8f4947e74160100a27f168af13",
                 "shasum": ""
             },
             "require": {
@@ -578,7 +619,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-04-07 12:59:59"
+            "time": "2017-04-13 17:21:40"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -736,12 +777,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-swiftmailer.git",
-                "reference": "c86c5ee2464ebf8c9f9adc2978193a9a2771b9c9"
+                "reference": "23b69e5c257c30bfcb1f88157c135a979f22d8eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/c86c5ee2464ebf8c9f9adc2978193a9a2771b9c9",
-                "reference": "c86c5ee2464ebf8c9f9adc2978193a9a2771b9c9",
+                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/23b69e5c257c30bfcb1f88157c135a979f22d8eb",
+                "reference": "23b69e5c257c30bfcb1f88157c135a979f22d8eb",
                 "shasum": ""
             },
             "require": {
@@ -778,7 +819,7 @@
                 "swiftmailer",
                 "yii2"
             ],
-            "time": "2016-11-30 11:55:45"
+            "time": "2017-04-12 15:12:45"
         }
     ],
     "packages-dev": [
@@ -849,7 +890,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2017-04-07T07:05:49+00:00"
+            "time": "2017-04-07 07:05:49"
         },
         {
             "name": "phpspec/php-diff",
@@ -895,12 +936,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "b215cd6338fbd0bd3fd8a135f1bf63fddede2235"
+                "reference": "9f656e4721add78615d1a65c34834b5756a080d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/b215cd6338fbd0bd3fd8a135f1bf63fddede2235",
-                "reference": "b215cd6338fbd0bd3fd8a135f1bf63fddede2235",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/9f656e4721add78615d1a65c34834b5756a080d4",
+                "reference": "9f656e4721add78615d1a65c34834b5756a080d4",
                 "shasum": ""
             },
             "require": {
@@ -934,7 +975,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-04-07T13:13:35+00:00"
+            "time": "2017-04-13T11:01:19+00:00"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -989,12 +1030,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "9a4ce8444c7a49f4f8cd29f05ba14f988b7727c3"
+                "reference": "233de14a1903d84acdd73a04b30c58f131836645"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/9a4ce8444c7a49f4f8cd29f05ba14f988b7727c3",
-                "reference": "9a4ce8444c7a49f4f8cd29f05ba14f988b7727c3",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/233de14a1903d84acdd73a04b30c58f131836645",
+                "reference": "233de14a1903d84acdd73a04b30c58f131836645",
                 "shasum": ""
             },
             "require": {
@@ -1034,7 +1075,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2017-03-16 20:58:28"
+            "time": "2017-04-13T11:05:16+00:00"
         }
     ],
     "aliases": [],
