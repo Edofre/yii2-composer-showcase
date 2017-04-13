@@ -44,12 +44,6 @@ class OmnikassaController extends Controller
      */
     public function actionReturn()
     {
-        $response = Yii::$app->omniKassa->processRequest();
-
-        var_dump($response->attributes);
-        var_dump('Pending', $response->isPending);
-        var_dump('Successful', $response->isSuccessful);
-        var_dump('Failure', $response->isFailure);
-        exit;
+        return $this->render('response', ['response' => Yii::$app->omniKassa->processRequest()]);
     }
 }
