@@ -1,6 +1,6 @@
 <?php
 return [
-    'name'       => 'Testing',
+    'name'       => 'Yii2 Composer Showcase',
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'aliases'    => [
         '@bower' => '@vendor/bower-asset',
