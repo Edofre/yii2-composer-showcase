@@ -2,7 +2,6 @@
 namespace frontend\controllers;
 
 use common\models\LoginForm;
-use edofre\fullcalendar\models\Event;
 use frontend\models\ContactForm;
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
@@ -11,7 +10,6 @@ use Yii;
 use yii\base\InvalidParamException;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
-use yii\helpers\Json;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 
@@ -20,15 +18,6 @@ use yii\web\Controller;
  */
 class SiteController extends Controller
 {
-    public function beforeAction($action)
-    {
-        if ($action->id == 'return') { // We need to disable the CSRF protection when we return from omnikassa
-            $this->enableCsrfValidation = false;
-        }
-
-        return parent::beforeAction($action);
-    }
-
     /**
      * @inheritdoc
      */
@@ -96,6 +85,13 @@ class SiteController extends Controller
                 'github'   => 'https://github.com/Edofre/yii2-fullcalendar-scheduler',
                 'composer' => 'https://packagist.org/packages/edofre/yii2-fullcalendar-scheduler',
                 'version'  => 'V1.1.9',
+            ],
+            [
+                'name'     => 'yii2-omnikassa',
+                'link'     => '/omnikassa',
+                'github'   => 'https://github.com/Edofre/yii2-omnikassa',
+                'composer' => 'https://packagist.org/packages/edofre/yii2-omnikassa',
+                'version'  => 'V1.0.5',
             ],
         ];
 
