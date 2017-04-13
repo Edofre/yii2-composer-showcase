@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9385e2088aa6ccaa73e623c4e3fbfd5b",
+    "content-hash": "df1b0f8a02d4465af59771fa3ad6c585",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -22,6 +22,22 @@
             },
             "require": {
                 "bower-asset/jquery": ">=1.9.1,<4.0"
+            },
+            "type": "library"
+        },
+        {
+            "name": "bower-asset/ckeditor",
+            "version": "4.6.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ckeditor/ckeditor-releases.git",
+                "reference": "075b649ec6b160ae9fe78c393dca28024bb7aa14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ckeditor/ckeditor-releases/zipball/075b649ec6b160ae9fe78c393dca28024bb7aa14",
+                "reference": "075b649ec6b160ae9fe78c393dca28024bb7aa14",
+                "shasum": null
             },
             "type": "library"
         },
@@ -274,6 +290,57 @@
                 "markdown-extra"
             ],
             "time": "2017-04-04 09:40:58"
+        },
+        {
+            "name": "edofre/yii2-ckeditor",
+            "version": "V1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Edofre/yii2-ckeditor.git",
+                "reference": "e24e9f31c5323038a5331e6278ac5e794ca86485"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Edofre/yii2-ckeditor/zipball/e24e9f31c5323038a5331e6278ac5e794ca86485",
+                "reference": "e24e9f31c5323038a5331e6278ac5e794ca86485",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/ckeditor": "4.6.1",
+                "php": ">=5.5.0",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-jui": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "edofre\\ckeditor\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Edo Freriks",
+                    "email": "edofre@gmail.com"
+                }
+            ],
+            "description": "Yii2 widget for ckeditor",
+            "homepage": "https://github.com/edofre/yii2-ckeditor",
+            "keywords": [
+                "CKEditor",
+                "editor",
+                "text",
+                "widget"
+            ],
+            "time": "2016-12-24T09:58:59+00:00"
         },
         {
             "name": "edofre/yii2-fullcalendar",
@@ -975,7 +1042,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-04-13T11:01:19+00:00"
+            "time": "2017-04-13 11:01:19"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -1075,7 +1142,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2017-04-13T11:05:16+00:00"
+            "time": "2017-04-13 11:05:16"
         }
     ],
     "aliases": [],

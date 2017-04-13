@@ -26,7 +26,8 @@
     "yiisoft/yii2-swiftmailer": "*",
     "edofre/yii2-fullcalendar": "V1.0.8",
     "edofre/yii2-fullcalendar-scheduler": "V1.1.9",
-    "edofre/yii2-omnikassa": "V1.0.5"
+    "edofre/yii2-omnikassa": "V1.0.5",
+    "edofre/yii2-ckeditor": "V1.0.1"
   },
   "require-dev": {
     "yiisoft/yii2-debug": "*",
