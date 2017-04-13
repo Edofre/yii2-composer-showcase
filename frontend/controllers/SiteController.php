@@ -93,6 +93,13 @@ class SiteController extends Controller
                 'composer' => 'https://packagist.org/packages/edofre/yii2-omnikassa',
                 'version'  => 'V1.0.5',
             ],
+            [
+                'name'     => 'yii2-ckeditor',
+                'link'     => '/ckeditor',
+                'github'   => 'https://github.com/Edofre/yii2-ckeditor',
+                'composer' => 'https://packagist.org/packages/edofre/yii2-ckeditor',
+                'version'  => 'V1.0.1',
+            ],
         ];
 
         return $this->render('index', ['packages' => $packages]);
@@ -112,7 +119,7 @@ class SiteController extends Controller
     {
         return $this->render('amigo');
     }
-    
+
     /**
      * Logs in a user.
      * @return mixed
