@@ -112,29 +112,7 @@ class SiteController extends Controller
     {
         return $this->render('amigo');
     }
-
-    /**
-     *
-     */
-    public function actionReturn()
-    {
-        $response = Yii::$app->omniKassa->processRequest();
-
-        var_dump($response->attributes);
-        var_dump('Pending', $response->isPending);
-        var_dump('Successful', $response->isSuccessful);
-        var_dump('Failure', $response->isFailure);
-        exit;
-    }
-
-    /**
-     * @return string
-     */
-    public function actionCkeditor()
-    {
-        return $this->render('ckeditor');
-    }
-
+    
     /**
      * Logs in a user.
      * @return mixed
