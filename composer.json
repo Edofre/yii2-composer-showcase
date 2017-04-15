@@ -28,7 +28,8 @@
     "edofre/yii2-fullcalendar-scheduler": "V1.1.9",
     "edofre/yii2-omnikassa": "V1.0.5",
     "edofre/yii2-ckeditor": "V1.0.1",
-    "edofre/yii2-float-thead": "V1.0.2"
+    "edofre/yii2-float-thead": "V1.0.2",
+    "edofre/yii2-slider-pro": "V1.1.6"
   },
   "require-dev": {
     "yiisoft/yii2-debug": "*",

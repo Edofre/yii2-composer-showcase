@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3ce1dfd53fbe0fcd01873ba34c174b8",
+    "content-hash": "fc33f9f20cce04138ee6e675529635b6",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -227,6 +227,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bestiejs/punycode.js/zipball/38c8d3131a82567bfef18da09f7f4db68c84f8a3",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3",
+                "shasum": null
+            },
+            "type": "library"
+        },
+        {
+            "name": "bower-asset/slider-pro",
+            "version": "1.2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bqworks/slider-pro.git",
+                "reference": "b373526447a0d36110ae0f7ac83d84476a3cc075"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bqworks/slider-pro/zipball/b373526447a0d36110ae0f7ac83d84476a3cc075",
+                "reference": "b373526447a0d36110ae0f7ac83d84476a3cc075",
                 "shasum": null
             },
             "type": "library"
@@ -554,6 +570,58 @@
                 "rabobank"
             ],
             "time": "2016-12-24T10:19:41+00:00"
+        },
+        {
+            "name": "edofre/yii2-slider-pro",
+            "version": "V1.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Edofre/yii2-slider-pro.git",
+                "reference": "7a1f60cd96c9d0bf09c8ff5567fa3f5b2f4a7328"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Edofre/yii2-slider-pro/zipball/7a1f60cd96c9d0bf09c8ff5567fa3f5b2f4a7328",
+                "reference": "7a1f60cd96c9d0bf09c8ff5567fa3f5b2f4a7328",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/slider-pro": "1.2.2",
+                "php": ">=5.5.0",
+                "yiisoft/yii2": ">=2.0.9",
+                "yiisoft/yii2-bootstrap": "~2.0.0",
+                "yiisoft/yii2-jui": ">=2.0.6"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "edofre\\sliderpro\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Edo Freriks",
+                    "email": "edofre@gmail.com"
+                }
+            ],
+            "description": "Yii2 widget for slider-pro",
+            "homepage": "https://github.com/edofre/yii2-slider-pro",
+            "keywords": [
+                "images",
+                "jquery",
+                "slider",
+                "slider-pro"
+            ],
+            "time": "2017-03-31T19:32:03+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
