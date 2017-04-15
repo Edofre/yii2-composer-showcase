@@ -119,11 +119,6 @@ class SiteController extends Controller
         return $this->render('index', ['packages' => $packages]);
     }
 
-    public function actionClusterer()
-    {
-        return $this->render('clusterer');
-    }
-
     /**
      * Logs in a user.
      * @return mixed
@@ -153,11 +148,6 @@ class SiteController extends Controller
         Yii::$app->user->logout();
 
         return $this->goHome();
-    }
-
-    public function actionFloatThead()
-    {
-        return $this->render('float-thead');
     }
 
     /**

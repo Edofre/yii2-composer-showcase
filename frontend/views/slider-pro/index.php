@@ -6,13 +6,13 @@ use edofre\sliderpro\models\Slide;
 use edofre\sliderpro\models\slides\Caption;
 use edofre\sliderpro\models\slides\Image;
 use edofre\sliderpro\models\slides\Layer;
+use edofre\sliderpro\models\Thumbnail;
 
 $this->title = 'Slider pro';
 
 ?>
 <div class="site-slider-pro">
     <div class="body-content">
-
         <?php
         $slides = [
             new Slide([
@@ -49,11 +49,11 @@ $this->title = 'Slider pro';
         ];
 
         $thumbnails = [
-            new \edofre\sliderpro\models\Thumbnail(['tag' => 'img', 'htmlOptions' => ['src' => "/images/ttest.jpg", 'data-src' => "/images/test.jpg"]]),
-            new \edofre\sliderpro\models\Thumbnail(['tag' => 'img', 'htmlOptions' => ['src' => "/images/ttest1.png", 'data-src' => "/images/test1.png"]]),
-            new \edofre\sliderpro\models\Thumbnail(['tag' => 'img', 'htmlOptions' => ['src' => "/images/ttest2.png", 'data-src' => "/images/test2.png"]]),
-            new \edofre\sliderpro\models\Thumbnail(['tag' => 'p', 'content' => 'Thumbnail for video']),
-            new \edofre\sliderpro\models\Thumbnail(['tag' => 'p', 'content' => 'Thumbnail 5']),
+            new Thumbnail(['tag' => 'img', 'htmlOptions' => ['src' => "/images/ttest.jpg", 'data-src' => "/images/test.jpg"]]),
+            new Thumbnail(['tag' => 'img', 'htmlOptions' => ['src' => "/images/ttest1.png", 'data-src' => "/images/test1.png"]]),
+            new Thumbnail(['tag' => 'img', 'htmlOptions' => ['src' => "/images/ttest2.png", 'data-src' => "/images/test2.png"]]),
+            new Thumbnail(['tag' => 'p', 'content' => 'Thumbnail for video']),
+            new Thumbnail(['tag' => 'p', 'content' => 'Thumbnail 5']),
         ];
         ?>
 
@@ -65,14 +65,14 @@ $this->title = 'Slider pro';
                 'width'  => 960,
                 'height' => 500,
                 'arrows' => true,
-                'init'   => new \yii\web\JsExpression("
-			function() {
-				console.log('slider is initialized');
-			}
-		"),
+                'init'   =>
+                    new \yii\web\JsExpression("
+                        function() {
+                            console.log('slider is initialized');
+                        }
+                    "),
             ],
         ]);
         ?>
-
     </div>
 </div>
