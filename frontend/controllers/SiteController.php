@@ -119,19 +119,9 @@ class SiteController extends Controller
         return $this->render('index', ['packages' => $packages]);
     }
 
-    public function actionSlider()
-    {
-        return $this->render('slider');
-    }
-
     public function actionClusterer()
     {
         return $this->render('clusterer');
-    }
-
-    public function actionAmigo()
-    {
-        return $this->render('amigo');
     }
 
     /**
