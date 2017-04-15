@@ -36,12 +36,21 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
+
+        // Composer packages
+        ['label' => 'fullcalendar', 'url' => ['/fullcalendar']],
+        ['label' => 'fullcalendar-scheduler', 'url' => ['/fullcalendar-scheduler']],
+        ['label' => 'omnikassa', 'url' => ['/omnikassa']],
+        ['label' => 'ckeditor', 'url' => ['/ckeditor']],
+        ['label' => 'float-thead', 'url' => ['/float-thead']],
+        ['label' => 'slider-pro', 'url' => ['/slider-pro']],
+
+//        ['label' => 'About', 'url' => ['/site/about']],
+//        ['label' => 'Contact', 'url' => ['/site/contact']],
     ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+//        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
+//        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
     } else {
         $menuItems[] = [
             'label'       => 'Logout (' . Yii::$app->user->identity->username . ')',
