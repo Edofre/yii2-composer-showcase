@@ -107,6 +107,13 @@ class SiteController extends Controller
                 'composer' => 'https://packagist.org/packages/edofre/yii2-float-thead',
                 'version'  => 'V1.0.2',
             ],
+            [
+                'name'     => 'yii2-slider-pro',
+                'link'     => '/slider-pro',
+                'github'   => 'https://github.com/Edofre/yii2-slider-pro',
+                'composer' => 'https://packagist.org/packages/edofre/yii2-slider-pro',
+                'version'  => 'V1.1.6',
+            ],
         ];
 
         return $this->render('index', ['packages' => $packages]);
