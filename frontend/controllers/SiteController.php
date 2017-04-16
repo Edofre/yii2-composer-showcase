@@ -114,6 +114,13 @@ class SiteController extends Controller
                 'composer' => 'https://packagist.org/packages/edofre/yii2-slider-pro',
                 'version'  => 'V1.1.6',
             ],
+            [
+                'name'     => 'yii2-marker-clusterer',
+                'link'     => '/marker-clusterer',
+                'github'   => 'https://github.com/Edofre/yii2-marker-clusterer',
+                'composer' => 'https://packagist.org/packages/edofre/yii2-marker-clusterer',
+                'version'  => 'V1.0.1',
+            ],
         ];
 
         return $this->render('index', ['packages' => $packages]);
