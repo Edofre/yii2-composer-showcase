@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "754594da3846b2e6d938f57c7c549c0c",
+    "content-hash": "cf9b3f340414eb602a3c1c0b99141089",
     "packages": [
         {
             "name": "2amigos/yii2-google-maps-library",
@@ -120,29 +120,6 @@
             ]
         },
         {
-            "name": "bower-asset/fullcalendar",
-            "version": "v3.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fullcalendar/fullcalendar.git",
-                "reference": "5d6574b29d454d5db9f5f5ce551da835ab2a245c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fullcalendar/fullcalendar/zipball/5d6574b29d454d5db9f5f5ce551da835ab2a245c",
-                "reference": "5d6574b29d454d5db9f5f5ce551da835ab2a245c",
-                "shasum": null
-            },
-            "require": {
-                "bower-asset/jquery": ">=2,<4.0",
-                "bower-asset/moment": ">=2.9.0,<3.0.0"
-            },
-            "type": "bower-asset",
-            "license": [
-                "MIT"
-            ]
-        },
-        {
             "name": "bower-asset/inputmask",
             "version": "3.3.11",
             "source": {
@@ -201,25 +178,6 @@
                 "bower-asset/jquery": ">=1.6"
             },
             "type": "bower-asset"
-        },
-        {
-            "name": "bower-asset/moment",
-            "version": "2.21.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:moment/moment.git",
-                "reference": "7c4c091bedb86ca6c1a5c5419ad5204ef3926347"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/7c4c091bedb86ca6c1a5c5419ad5204ef3926347",
-                "reference": "7c4c091bedb86ca6c1a5c5419ad5204ef3926347",
-                "shasum": null
-            },
-            "type": "bower-asset",
-            "license": [
-                "MIT"
-            ]
         },
         {
             "name": "bower-asset/punycode",
@@ -494,20 +452,20 @@
         },
         {
             "name": "edofre/yii2-fullcalendar",
-            "version": "V1.0.8",
+            "version": "V1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Edofre/yii2-fullcalendar.git",
-                "reference": "275b2c08e4500df5521ddd2d3d87ef02149814a3"
+                "reference": "0eed44a374a95849093891f08df20b79942a0c62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Edofre/yii2-fullcalendar/zipball/275b2c08e4500df5521ddd2d3d87ef02149814a3",
-                "reference": "275b2c08e4500df5521ddd2d3d87ef02149814a3",
+                "url": "https://api.github.com/repos/Edofre/yii2-fullcalendar/zipball/0eed44a374a95849093891f08df20b79942a0c62",
+                "reference": "0eed44a374a95849093891f08df20b79942a0c62",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/fullcalendar": "3.2.0",
+                "npm-asset/fullcalendar": "v3.8.0",
                 "php": ">=5.5.0",
                 "yiisoft/yii2": ">=2.0.9",
                 "yiisoft/yii2-jui": ">=2.0.6"
@@ -541,25 +499,25 @@
                 "fullcalendar",
                 "javascript"
             ],
-            "time": "2017-03-30T10:12:09+00:00"
+            "time": "2018-01-04T21:25:17+00:00"
         },
         {
             "name": "edofre/yii2-fullcalendar-scheduler",
-            "version": "V1.1.10",
+            "version": "V1.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Edofre/yii2-fullcalendar-scheduler.git",
-                "reference": "408d14b9f0f544792b91fe7bed72c3f6c1c240d0"
+                "reference": "36a2fe9e1bbb51d290423cbca87f3f12d00e9198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Edofre/yii2-fullcalendar-scheduler/zipball/408d14b9f0f544792b91fe7bed72c3f6c1c240d0",
-                "reference": "408d14b9f0f544792b91fe7bed72c3f6c1c240d0",
+                "url": "https://api.github.com/repos/Edofre/yii2-fullcalendar-scheduler/zipball/36a2fe9e1bbb51d290423cbca87f3f12d00e9198",
+                "reference": "36a2fe9e1bbb51d290423cbca87f3f12d00e9198",
                 "shasum": ""
             },
             "require": {
-                "npm-asset/fullcalendar": "3.2.0",
-                "npm-asset/fullcalendar-scheduler": "1.5.1",
+                "npm-asset/fullcalendar": "v3.8.0",
+                "npm-asset/fullcalendar-scheduler": "1.9.1",
                 "php": ">=5.5.0",
                 "yiisoft/yii2": ">=2.0.9",
                 "yiisoft/yii2-jui": ">=2.0.6"
@@ -594,7 +552,7 @@
                 "javascript",
                 "scheduler"
             ],
-            "time": "2017-06-21T19:10:20+00:00"
+            "time": "2018-03-28T09:19:09+00:00"
         },
         {
             "name": "edofre/yii2-marker-clusterer",
@@ -1027,10 +985,10 @@
         },
         {
             "name": "npm-asset/fullcalendar",
-            "version": "3.2.0",
+            "version": "3.8.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/fullcalendar/-/fullcalendar-3.2.0.tgz",
+                "url": "https://registry.npmjs.org/fullcalendar/-/fullcalendar-3.8.0.tgz",
                 "reference": null,
                 "shasum": null
             },
@@ -1045,15 +1003,15 @@
         },
         {
             "name": "npm-asset/fullcalendar-scheduler",
-            "version": "1.5.1",
+            "version": "1.9.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/fullcalendar-scheduler/-/fullcalendar-scheduler-1.5.1.tgz",
+                "url": "https://registry.npmjs.org/fullcalendar-scheduler/-/fullcalendar-scheduler-1.9.1.tgz",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "npm-asset/fullcalendar": "~3.2.0",
+                "npm-asset/fullcalendar": "~3.8.0",
                 "npm-asset/jquery": ">=2,<4.0",
                 "npm-asset/moment": ">=2.9.0,<3.0.0"
             },
@@ -1572,7 +1530,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2018-03-15T16:58:08+00:00"
+            "time": "2018-03-15 16:58:08"
         },
         {
             "name": "phpspec/php-diff",
@@ -1610,7 +1568,7 @@
                 }
             ],
             "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
-            "time": "2016-04-07T12:29:16+00:00"
+            "time": "2016-04-07 12:29:16"
         },
         {
             "name": "yiisoft/yii2-debug",
@@ -1657,7 +1615,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2018-02-28T23:27:35+00:00"
+            "time": "2018-02-28 23:27:35"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -1704,7 +1662,7 @@
                 "faker",
                 "yii2"
             ],
-            "time": "2018-03-14T22:37:00+00:00"
+            "time": "2018-03-14 22:37:00"
         },
         {
             "name": "yiisoft/yii2-gii",
@@ -1757,7 +1715,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2018-03-14T22:46:15+00:00"
+            "time": "2018-03-14 22:46:15"
         }
     ],
     "aliases": [],
