@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf9b3f340414eb602a3c1c0b99141089",
+    "content-hash": "9c2d9cf3d6ea9ee31bbfe7d1a5c349a3",
     "packages": [
         {
             "name": "2amigos/yii2-google-maps-library",
@@ -80,22 +80,23 @@
         },
         {
             "name": "bower-asset/ckeditor",
-            "version": "4.6.1",
+            "version": "4.8.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ckeditor/ckeditor-releases.git",
-                "reference": "075b649ec6b160ae9fe78c393dca28024bb7aa14"
+                "reference": "3e0ba2fa7361e0e425b73b2e4400af4a7f767ec5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ckeditor/ckeditor-releases/zipball/075b649ec6b160ae9fe78c393dca28024bb7aa14",
-                "reference": "075b649ec6b160ae9fe78c393dca28024bb7aa14",
+                "url": "https://api.github.com/repos/ckeditor/ckeditor-releases/zipball/3e0ba2fa7361e0e425b73b2e4400af4a7f767ec5",
+                "reference": "3e0ba2fa7361e0e425b73b2e4400af4a7f767ec5",
                 "shasum": null
             },
             "type": "bower-asset",
             "license": [
                 "For licensing, see LICENSE.md or http://ckeditor.com/license."
-            ]
+            ],
+            "time": "2017-12-13 16:47:19"
         },
         {
             "name": "bower-asset/floatthead",
@@ -352,20 +353,20 @@
         },
         {
             "name": "edofre/yii2-ckeditor",
-            "version": "V1.0.1",
+            "version": "V1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Edofre/yii2-ckeditor.git",
-                "reference": "e24e9f31c5323038a5331e6278ac5e794ca86485"
+                "reference": "04e39a5ea09d0c32a80e5b97107944515a51e13d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Edofre/yii2-ckeditor/zipball/e24e9f31c5323038a5331e6278ac5e794ca86485",
-                "reference": "e24e9f31c5323038a5331e6278ac5e794ca86485",
+                "url": "https://api.github.com/repos/Edofre/yii2-ckeditor/zipball/04e39a5ea09d0c32a80e5b97107944515a51e13d",
+                "reference": "04e39a5ea09d0c32a80e5b97107944515a51e13d",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/ckeditor": "4.6.1",
+                "bower-asset/ckeditor": "~4.8.0",
                 "php": ">=5.5.0",
                 "yiisoft/yii2": "*",
                 "yiisoft/yii2-jui": "*"
@@ -399,7 +400,7 @@
                 "text",
                 "widget"
             ],
-            "time": "2016-12-24T09:58:59+00:00"
+            "time": "2018-01-07T12:15:06+00:00"
         },
         {
             "name": "edofre/yii2-float-thead",
@@ -924,12 +925,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "99bfec281379c040f37dc3c3e9312476875a2f62"
+                "reference": "773750151c47189c24f9026620e43ddd55d453a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/99bfec281379c040f37dc3c3e9312476875a2f62",
-                "reference": "99bfec281379c040f37dc3c3e9312476875a2f62",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/773750151c47189c24f9026620e43ddd55d453a2",
+                "reference": "773750151c47189c24f9026620e43ddd55d453a2",
                 "shasum": ""
             },
             "require": {
@@ -981,7 +982,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-03-26 16:50:35"
+            "time": "2018-03-29 00:18:34"
         },
         {
             "name": "npm-asset/fullcalendar",
@@ -1163,12 +1164,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "69960cfab469c0e1d9fccd2afb58718b7d4a7069"
+                "reference": "c1ca3b69732bbde682f131c8e7d918f849f74339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/69960cfab469c0e1d9fccd2afb58718b7d4a7069",
-                "reference": "69960cfab469c0e1d9fccd2afb58718b7d4a7069",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/c1ca3b69732bbde682f131c8e7d918f849f74339",
+                "reference": "c1ca3b69732bbde682f131c8e7d918f849f74339",
                 "shasum": ""
             },
             "require": {
@@ -1255,7 +1256,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2018-03-27 13:30:49"
+            "time": "2018-03-28 10:25:31"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
